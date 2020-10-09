@@ -1,4 +1,4 @@
-![] dynamicwizard.gif
+![]dynamicwizard.gif
 
 # CustomeComp
 
