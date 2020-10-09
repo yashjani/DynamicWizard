@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+modal--step{
+    width: 100;
+    max-width: 420px;
+    padding:20px 0 40px;
+    margin:auto;
+}
+
+modal--steps progressbar.progress{
+    height: 7px;
+    margin: 0;
+    border-radius: 10px;
+    background: #e1e1e3;
+    box-shadow: none;
+}

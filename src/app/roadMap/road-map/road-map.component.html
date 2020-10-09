@@ -1,0 +1,37 @@
+<div class="container-fluid">
+    <div class="modal--steps">
+        <ul class="step-widget-bar">
+            <li *ngFor="let roadMap of roadMaps; let index= index;">
+                <div *ngIf="roadMaps[index].active">
+                <i  id=index{{index}}>
+                    <span  class="clearfix"> <span
+                            class="road-map text">{{roadMap.name}}</span>
+                    </span>
+                </i>
+                <ul>
+                    <li *ngFor="let nav of roadMap.nav">
+                        <span>{{nav}}</span>
+                    </li>    
+                </ul>
+
+                <ul>
+                    <li *ngFor="let header of roadMap.header">
+                        <span>{{header}}</span>
+                    </li>    
+                </ul>
+
+                <ul>
+                    <li *ngFor="let footer of roadMap.footer">
+                        <span>{{footer}}</span>
+                    </li>    
+                </ul>
+                </div>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+<div>
+    <button (click) = "continue()"> Continue </button>
+</div>
+<ng-template appDynamicDiretive> </ng-template>
