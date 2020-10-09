@@ -1,29 +1,23 @@
+# Demo
+
 ![](dynamicwizard.gif)
 
-# CustomeComp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
+# Abstract Service Interface
+This service interface will have a declaration of methods.
 
-## Development server
+# Pizza, Pasta and Movie Services
+These services are concrete services that will implement the Abstract Interface and override interface method.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# RoadMap module and Component
+This module and component will handle HTML rendering and continue button click. More buttons and custom HTML can be added here.
 
-## Code scaffolding
+# Directive
+This directive will help to place the component on ng-template
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Parent Wizard
+This module has a different component declaration. Customization can also handle from here.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Note:
+What's abstract factory design pattern?
+https://refactoring.guru/design-patterns/abstract-factory/typescript/example
